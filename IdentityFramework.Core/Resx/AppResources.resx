@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDeniedException" xml:space="preserve">
+    <value>شما اجازه {0} را ندارید.</value>
+  </data>
+  <data name="AdministrationRight" xml:space="preserve">
+    <value>مدیریت سیستم</value>
+  </data>
+  <data name="ApplicationNotFoundException" xml:space="preserve">
+    <value>برنامه مورد نظر موجود نميباشد.</value>
+  </data>
+  <data name="ChangePasswordNextLoginException" xml:space="preserve">
+    <value>كلمه عبور ميبايست در اولين ورود تغيير يابد.</value>
+    <comment>user must change password now.</comment>
+  </data>
+  <data name="ChangePasswordRight" xml:space="preserve">
+    <value>تغییر کلمه عبور</value>
+  </data>
+  <data name="DuplicateEmailException" xml:space="preserve">
+    <value>آدرس ایمیل وارد شده تکراری میباشد.</value>
+    <comment>The e-mail address already exists in the database for the application.</comment>
+  </data>
+  <data name="DuplicateUserNameException" xml:space="preserve">
+    <value>نام کاربری وارد شده تکراری میباشد.</value>
+    <comment>The user name already exists in the database for the application.</comment>
+  </data>
+  <data name="InvalidEmailException" xml:space="preserve">
+    <value>ایمیل نامعتبر میباشد.</value>
+  </data>
+  <data name="InvalidPasswordException" xml:space="preserve">
+    <value>کلمه عبور نامعتبر میباشد. حداقل طول کلمه عبور میبایست {0} کاراکتر و شامل حداقل {1} کاراکتر غیر حرفی عددی باشد.</value>
+    <comment>The password is not formatted correctly.</comment>
+  </data>
+  <data name="InvalidUsernameException" xml:space="preserve">
+    <value>نام کاربری نامعتبر میباشد.</value>
+  </data>
+  <data name="InvalidUserNameOrPasswordExceptin" xml:space="preserve">
+    <value>نام كاربري و یا كلمه عبور وارد شده نامعتبر ميباشد.</value>
+    <comment>Invalid user name or password.</comment>
+  </data>
+  <data name="LoginRight" xml:space="preserve">
+    <value>ورود به سیستم</value>
+  </data>
+  <data name="PasswordExpireException" xml:space="preserve">
+    <value>کلمه عبور منقضی شده است.</value>
+    <comment>password expire, user must change password.</comment>
+  </data>
+  <data name="RegisterNewUserRight" xml:space="preserve">
+    <value>تعریف کاربر</value>
+  </data>
+  <data name="UserIsLockedOutException" xml:space="preserve">
+    <value>كاربر مورد نظر غير فعال ميباشد.</value>
+    <comment>The supplied user is locked out.</comment>
+  </data>
+  <data name="UserMessagePriorityHigh" xml:space="preserve">
+    <value>مهم</value>
+  </data>
+  <data name="UserMessagePriorityHighest" xml:space="preserve">
+    <value>خیلی مهم</value>
+  </data>
+  <data name="UserMessagePriorityLow" xml:space="preserve">
+    <value>کم</value>
+  </data>
+  <data name="UserMessagePriorityLowest" xml:space="preserve">
+    <value>خیلی کم</value>
+  </data>
+  <data name="UserMessagePriorityMedium" xml:space="preserve">
+    <value>معمولی</value>
+  </data>
+  <data name="UserNotApprovedException" xml:space="preserve">
+    <value>كاربر مورد نظر تائید نشده اند.</value>
+  </data>
+  <data name="UserNotExistsException" xml:space="preserve">
+    <value>كاربر مورد نظر موجود نميباشد.</value>
+  </data>
+  <data name="DuplicatePhoneException" xml:space="preserve">
+    <value>شماره تلفن وارد شده تکراری میباشد.</value>
+  </data>
+  <data name="InvalidPhoneException" xml:space="preserve">
+    <value>شماره تلفن نامعتبر میباشد.</value>
+  </data>
+  <data name="UserActivationEmailSubject" xml:space="preserve">
+    <value>فعال سازی حساب کاربری {0}</value>
+  </data>
+  <data name="UserActivationEmailBody" xml:space="preserve">
+    <value>کاربر گرامی {0}
+
+لطفا جهت فعال سازی حساب کاربری خود بر روی لینک زیر کلیک نمائید و یا آن را کپی و سپس در قسمت آدرس مرورگر خود وارد نمائید.
+
+{1}
+
+با تشکر
+{2}</value>
+    <comment>Dear [User:DisplayName],
+
+You have requested a Password Reset Token from [Portal:PortalName].
+
+Please login using the following information:
+
+Website Address: [Portal:URL]
+Username:   [User:Username]
+
+Link to reset password: [Portal:PASSWORDREMINDERURL]?ctl=PasswordReset&amp;amp;resetToken=[Membership:PasswordResetToken]
+
+Sincerely,
+[Portal:PortalName]
+
+*Note: If you did not request a Password Reset Token, please disregard this Message.</comment>
+  </data>
+  <data name="PhoneVerificationSmsBody" xml:space="preserve">
+    <value>Your {0} authentication code is {1}.</value>
+  </data>
+  <data name="PasswordNotMachException" xml:space="preserve">
+    <value>کلمه عبور با تکرارش یکسان نمیباشد.</value>
+    <comment>Password and password confirmation dont match.</comment>
+  </data>
+  <data name="EmailInvitationBody" xml:space="preserve">
+    <value>کاربر گرامی
+
+لطفا جهت تعریف حساب کاربری، بر روی لینک زیر کلیک نمائید و یا آن را کپی و سپس در قسمت آدرس مرورگر خود وارد نمائید.
+
+{0}
+
+با تشکر
+{1}</value>
+    <comment>Dear [User:DisplayName],
+
+You have requested a Password Reset Token from [Portal:PortalName].
+
+Please login using the following information:
+
+Website Address: [Portal:URL]
+Username:   [User:Username]
+
+Link to reset password: [Portal:PASSWORDREMINDERURL]?ctl=PasswordReset&amp;amp;resetToken=[Membership:PasswordResetToken]
+
+Sincerely,
+[Portal:PortalName]
+
+*Note: If you did not request a Password Reset Token, please disregard this Message.</comment>
+  </data>
+  <data name="EmailInvitationSubject" xml:space="preserve">
+    <value>تعریف حساب کاربری {0}</value>
+  </data>
+  <data name="PhoneInvitationSmsBody" xml:space="preserve">
+    <value>Your {0} invitation link is {1}.</value>
+  </data>
+</root>
