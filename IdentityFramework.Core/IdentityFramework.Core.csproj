@@ -3,6 +3,15 @@
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
     <Platforms>AnyCPU;x64;x86</Platforms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Amir Arayeshi</Authors>
+    <Company>InfoTech Bridge</Company>
+    <Copyright>InfoTech Bridge 2019</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>InfoTechBridge.IdentityFramework.Core</PackageId>
+    <RepositoryUrl>https://github.com/InfoTechBridge/IdentityFramework</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageProjectUrl>https://github.com/InfoTechBridge/IdentityFramework</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
