@@ -31,6 +31,7 @@ namespace IdentityFramework.Core.Services
         public string PhoneRegularExpression { get; set; } = @"\+?[0-9]{10}";
         public bool SendActivationEmailAfterSignup { get; set; } = true;
         public string EmailVerificationUrl { get; set; }
+        public string InvitationUrl { get; set; }
 
         //private static AuthenticationService defaultInstance;
         //public static AuthenticationService Instance
@@ -240,7 +241,14 @@ namespace IdentityFramework.Core.Services
             }
             return authCode;
         }
-        public async Task Invite(string recipient, string link, AuthCodeMessageType messageType, string appName)
+
+        public string GenerateInvitationLink(string referee)
+        {
+            var link = $"{InvitationUrl}?referee=" + referee;
+
+            return link;
+        }
+        public async Task Invite(string recipient, string referee, AuthCodeMessageType messageType, string appName)
         {
             if (string.IsNullOrEmpty(recipient))
                 throw new ApplicationException("Invalid recipient.");
@@ -253,6 +261,8 @@ namespace IdentityFramework.Core.Services
 
             if (exists)
                 throw new UserRightException("کاربری با این مشخصات از قبل عضو سامانه میباشد.");
+
+            var link = GenerateInvitationLink(referee);
 
             // Send Message
             switch (messageType)
